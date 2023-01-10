@@ -43,7 +43,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -80,9 +79,9 @@ WSGI_APPLICATION = 'django_tutorial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Enter',
+        'NAME': 'examen',
         'USER': 'root',
-        'PASSWORD': 'uax',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
     }
