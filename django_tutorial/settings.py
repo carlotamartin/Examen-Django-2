@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'django_tutorial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'examen',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'VGWxMlRiOpcLf7edsLZY',
+        'HOST': 'containers-us-west-51.railway.app',
+        'PORT': '5809',
     }
 }
 
